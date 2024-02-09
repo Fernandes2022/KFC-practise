@@ -1,0 +1,536 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.kfc-logo{
+  height: 47px;
+  width: 40px;
+}
+.nav-fonts{
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+}
+.navbar-padding{
+  padding-left: 50px;
+}
+.padding-content-1{
+  font-size: 22px;
+  font-weight: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.button-view{
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+}
+.button-view a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.section-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding-left: 200px;
+}
+.divs{
+  background-color: red;
+  width: 45px;
+  height: 35px;
+}
+.content-h1{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+.content-p{
+  padding-top: 20px;
+  font-family: National2Condensed, sans-serif;
+  font-weight: 300px;
+  text-align: center;
+}
+.button-location{
+  background-color: red;
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-left: 124px;
+}
+.button-location a{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+.section-divs-2{
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.divs-2{
+  background-color: red;
+  height: 45px;
+  border: solid 1px white;
+}
+.divs-2 a{
+  text-decoration: none;
+  color: white;
+  padding-left: 175px;
+  padding-top: 400px;
+  font-weight: bold;
+  font-family: National2Condensed, sans-serif;
+  font-size: 15px;
+}
+.section-divs-3{
+  background-color: aquamarine;
+}
+.divs-3-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.divs-3-1-img img{
+  padding-bottom: 210px;
+  padding-left: 20px;
+  width: 35%;
+  height: 35%;
+}
+.divs-3-1-about{
+  padding-top: 35px;
+}
+.section-divs-3-p a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.section-divs-3-h3{
+  color: red;
+  font-size: 20px;
+}
+.divs-3-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px
+}
+.divs-media{
+  padding-left: 20px;
+  padding-top: 35px;
+  width: 230px;
+}
+.footer{
+  background-color: white;
+  width: 100%;
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 120px;
+}
+.footer-p{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+@media only screen and (min-width: 768px) {
+  .padding-content-1{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .button-view{
+    background-color: red;
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .section-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding-left: 300px;
+  }
+  .divs{
+    background-color: red;
+    width: 55px;
+    height: 45px;
+  }
+  .content-h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+  .button-location{
+    background-color: red;
+    width: 230px;
+    height: 45px;
+    border: none;
+    margin-left: 250px;
+  }
+  .section-divs-2{
+    padding-top: 20px;
+    display: flex;
+    justify-items: stretch;
+  }
+  .divs-2{
+    background-color: red;
+    height: 55px;
+    width: 400px;
+    border: solid 1px white;
+    padding-top: 14px;
+    padding-right: 50px;
+  }
+  .divs-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: National2Condensed, sans-serif;
+    font-size: 17px;
+  }
+  .section-divs-3{
+    background-color: aquamarine;
+    display: flex;
+  }
+  .divs-3-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+  }
+  .divs-3-1-img img{
+    padding-bottom: 210px;
+    padding-left: 20px;
+    width: 35%;
+    height: 35%;
+  }
+  .divs-3-1-about{
+    padding-top: 35px;
+  }
+  .section-divs-3-p a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section-divs-3-h3{
+    color: red;
+    font-size: 20px;
+  }
+  .divs-3-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 285px;
+  }
+  .divs-media{
+    padding-left: 20px;
+    padding-top: 35px;
+    width: 230px;
+  }
+  .footer{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 200px;
+  }
+  .footer-p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .padding-content-1{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .button-view{
+    background-color: red;
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .section-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding-left: 420px;
+  }
+  .divs{
+    background-color: red;
+    width: 55px;
+    height: 45px;
+  }
+  .content-h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+  .content-p{
+    padding-top: 20px;
+    font-family: National2Condensed, sans-serif;
+    font-weight: 350px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .button-location{
+    background-color: red;
+    width: 300px;
+    height: 75px;
+    border: none;
+    margin-left: 350px;
+    margin-top: 30px;
+  }
+  .button-location a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section-divs-2{
+    padding-top: 20px;
+    display: flex;
+    justify-items: stretch;
+    margin-top: 50px;
+  }
+  .section-divs-2-1{
+    display: flex;
+  }
+  .section-divs-2-2{
+    display: flex;
+  }
+  .divs-2{
+    background-color: red;
+    height: 55px;
+    width: 250px;
+    border: solid 1px white;
+    padding-top: 14px;
+    padding-right: 10px;
+  }
+  .divs-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: National2Condensed, sans-serif;
+    font-size: 15px;
+    padding-left: 75px;
+  }
+  .section-divs-3{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+  }
+  .divs-3-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+  }
+  .divs-3-1-img img{
+    padding-bottom: 280px;
+    padding-left: 30px;
+    width: 45%;
+    height: 45%;
+  }
+  .divs-3-1-about{
+    padding-top: 35px;
+  }
+  .section-divs-3-p a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section-divs-3-h3{
+    color: red;
+    font-size: 20px;
+  }
+  .divs-3-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 510px;
+    margin-bottom: 285px;
+  }
+  .divs-media{
+    padding-left: 110px;
+    padding-top: 100px;
+    width: 230px;
+  }
+  .divs-stay{
+    padding-left: 100px;
+  }
+  .footer{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 200px;
+  }
+  .footer-p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .padding-content-1{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .button-view{
+    background-color: red;
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .section-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding-left: 500px;
+  }
+  .divs{
+    background-color: red;
+    width: 80px;
+    height: 45px;
+  }
+  .content-h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+  .content-p{
+    padding-top: 20px;
+    font-family: National2Condensed, sans-serif;
+    font-weight: 350px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .button-location{
+    background-color: red;
+    width: 300px;
+    height: 75px;
+    border: none;
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  .button-location a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section-divs-2{
+    padding-top: 20px;
+    display: flex;
+    justify-items: stretch;
+    margin-top: 50px;
+    width: 850px;
+    /* max-width: 1366px; */
+  }
+  .section-divs-2-1{
+    display: flex;
+    width: 700px;
+  }
+  .section-divs-2-2{
+    display: flex;
+    width: 700px;
+  }
+  .divs-2{
+    background-color: red;
+    height: 60px;
+    width: 400px;
+    border: solid 1px white;
+    padding-top: 14px;
+    padding-right: 10px;
+  }
+  .divs-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: National2Condensed, sans-serif;
+    font-size: 17px;
+    padding-left: 80px;
+  }
+  .section-divs-3{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+  }
+  .divs-3-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+  }
+  .divs-3-1-img img{
+    padding-bottom: 280px;
+    padding-left: 30px;
+    width: 45%;
+    height: 45%;
+  }
+  .divs-3-1-about{
+    padding-top: 35px;
+    padding-left: 200px;
+  }
+  .section-divs-3-p a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section-divs-3-h3{
+    color: red;
+    font-size: 20px;
+  }
+  .divs-3-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    margin-bottom: 285px;
+    padding-left: 250px;
+  }
+  .divs-media{
+    padding-left: 90px;
+    padding-top: 100px;
+    width: 230px;
+  }
+  .divs-stay{
+    padding-left: 130px;
+  }
+  .footer{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .footer-p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+}

@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+.navbar-color{
+  background-color: aqua;
+  
+}
+.chicken-logo{
+  width: 115px;
+  height: 100px;
+  padding-left: 20px;
+}
+.navbar-padding{
+  padding-left: 100px;
+}
+.nav-fonts{
+  color: black;
+  font-weight: bolder;
+}
+.social-media-icon{
+  display: flex;
+  padding-left: 90px;
+  padding-top: 16px;
+  justify-content: space-evenly;
+}
+.chicken-home-image{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.chicken-banner-text{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  padding-top: 50px;
+}
+.chicken-banner-text h3{
+  color: white;
+  font-weight: bold;
+}
+.button-order{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50%;
+  background-color: yellow;
+  width: 135px;
+  height: 37px;
+  border: none;
+  border-radius: 20px;
+}
+.button-order a{
+  text-decoration: none;
+  text-align: center;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+.chicken-banicon{
+  background-color: red;
+  display: flex;
+  overflow: hidden;
+  height: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.slide{
+  flex: 0 0 14.28;
+  text-align: center;
+  padding-top: 80px;
+  width: 100%;
+}
+.slide img{
+  width: 100%;
+  height: auto;
+}
+.slide a{
+  text-decoration: none;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+.carousel-1{
+  background-color: yellow;
+  max-width: 100%;
+  height: 300px;
+}
+.carousel-1-text{
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 40px;
+}
+.carousel-1-text h3{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+  .navbar-color{
+    background-color: red;
+    position: relative;
+  }
+  .chicken-logo{
+    width: 115px;
+    height: 100px;
+    padding-left: 20px;
+    background-color: burlywood;
+  }
+  .slide img{
+    width: 100%;
+    height: 100px;
+    transition: transform 0.5s ease;
+  }
+  .slide a{
+    text-decoration: none;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-top: 100px;
+  }
+}
